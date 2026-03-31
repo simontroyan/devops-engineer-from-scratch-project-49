@@ -4,3 +4,6 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=simontroyan_devops-engineer-from-scratch-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=simontroyan_devops-engineer-from-scratch-project-49)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=simontroyan_devops-engineer-from-scratch-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=simontroyan_devops-engineer-from-scratch-project-49)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=simontroyan_devops-engineer-from-scratch-project-49&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=simontroyan_devops-engineer-from-scratch-project-49)
+
+
+![demo](demo.gif)

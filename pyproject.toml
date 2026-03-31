@@ -17,6 +17,7 @@ packages = ["brain_games"]
 
 [dependency-groups]
 dev = [
+    "asciinema-gif-generator>=1.4.3",
     "ruff>=0.15.8",
 ]
 

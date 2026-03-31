@@ -3,6 +3,26 @@ revision = 3
 requires-python = ">=3.12"
 
 [[package]]
+name = "asciinema-gif-generator"
+version = "1.4.3"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f8/0c/1b5afe84317a6ebbb803d2101ab48a8a6a6b35d9767ce361f1eefb7ef218/asciinema_gif_generator-1.4.3.tar.gz", hash = "sha256:facace2adae895ffb8ed0abe97f8a3542a8ea7d15d5e1f39339520355e50219f", size = 15737970, upload-time = "2024-08-10T22:41:23.43Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/cd/77/5f73a8e9bc6fc4307522ec896685c88a67c8f2bb3bb018b7fb0e9d9b9915/asciinema_gif_generator-1.4.3-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:c2bf2c634de490e6b8a158b928f26c010ebaffb636688d57f73d553a19ccd6ad", size = 3983682, upload-time = "2024-08-10T22:41:12.805Z" },
+    { url = "https://files.pythonhosted.org/packages/ff/a5/fa65d48c860430ed33d2a8c347e7ff6b0bccdc95b2cc1f9f99d3ae5939db/asciinema_gif_generator-1.4.3-py3-none-macosx_11_0_arm64.whl", hash = "sha256:750269db7955e23dbd62a4aa187e53560d65038cb17887402417818fa1e3c2c5", size = 3827957, upload-time = "2024-08-10T22:41:10.721Z" },
+    { url = "https://files.pythonhosted.org/packages/47/8d/533a804c4a7aec238841c823bfe9db74b9ab54313ac377e32ed65fcc9477/asciinema_gif_generator-1.4.3-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:749e2d5af4f2cc34b535403d57b97d27ae0883cbac13d5c2967a45a6a771719b", size = 4279407, upload-time = "2024-08-10T22:41:02.397Z" },
+    { url = "https://files.pythonhosted.org/packages/e7/bb/aacce0f75a57a8fad9060227ddb4ea5b12bf2a9867ae8daa609ad0380ac5/asciinema_gif_generator-1.4.3-py3-none-manylinux_2_17_armv7l.manylinux2014_armv7l.whl", hash = "sha256:356d2c91a101b10b7865c9e64017fbf7a8b37cac8ed5b9d2d413cdebaf4f9b2f", size = 4127260, upload-time = "2024-08-10T22:41:04.576Z" },
+    { url = "https://files.pythonhosted.org/packages/b9/95/3084a45e13c00f7fb1b947cd7eaaa5a7c0704c7587c153f7c2730db40c72/asciinema_gif_generator-1.4.3-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:30ba7219bc406c409266aa2b0a9ed4b94aeab15eda46ec4d49f295c48caa74e2", size = 4600673, upload-time = "2024-08-10T22:41:06.576Z" },
+    { url = "https://files.pythonhosted.org/packages/2d/a3/3e9698c2575969dd8fb8ca199d143ff33d879567373459be518c7d9f7cbd/asciinema_gif_generator-1.4.3-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d020df56d7b1ccf4daab176953857899f63435ef218b0ecd095d81aa7f402b16", size = 4322073, upload-time = "2024-08-10T22:41:08.594Z" },
+    { url = "https://files.pythonhosted.org/packages/9e/aa/559e472d082d8bb4285a63bffa9aeebffdf699de27f291507aca40681435/asciinema_gif_generator-1.4.3-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:848d51c64f9d8cbfc63f9ce82080bca748f00fd906b16018f883207bb7a5f975", size = 4294851, upload-time = "2024-08-10T22:41:14.733Z" },
+    { url = "https://files.pythonhosted.org/packages/80/d5/110522ec2afeaf4ed2d0d942955c85a43cc368e82f33cb8882b4df09d1af/asciinema_gif_generator-1.4.3-py3-none-musllinux_1_2_armv7l.whl", hash = "sha256:f83c377048f5ce27da18ed3389c381a0ad316c5e8ec2ab336ae84348e5561fce", size = 4169564, upload-time = "2024-08-10T22:41:16.936Z" },
+    { url = "https://files.pythonhosted.org/packages/18/0d/a22607bde05ec3b1adbad6e9966287b97e84238c0164d93fb11a3be6a697/asciinema_gif_generator-1.4.3-py3-none-musllinux_1_2_i686.whl", hash = "sha256:c400e9e7ffb6516c1d8d5e5f2eba747b10ddbdf1a8dc081edacc1c73821bc88e", size = 4438564, upload-time = "2024-08-10T22:41:18.74Z" },
+    { url = "https://files.pythonhosted.org/packages/0f/3f/d2358a4c02cd2c6a6c536f128beaaeb84815937cefd41f8a5f45178f902c/asciinema_gif_generator-1.4.3-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:0929aad9dbf8da4281dd96df75e9bfcc4d4d12f8492d9f5c416dfa6ec3663cce", size = 4409396, upload-time = "2024-08-10T22:41:21.12Z" },
+    { url = "https://files.pythonhosted.org/packages/1a/4d/91ed68b00bc340acd61119be88d337b9bd9da1e25941234deedea54c6542/asciinema_gif_generator-1.4.3-py3-none-win32.whl", hash = "sha256:5a7bebcb756c6eb8d88a1f3a0a72bd0828e689797da6175630d34702c84371bb", size = 3362186, upload-time = "2024-08-10T22:41:28.358Z" },
+    { url = "https://files.pythonhosted.org/packages/6e/91/1d75e9cac79c8e3a7158f18168f07b1efd6e27bb2d8a1b2fa5e8fa6bee16/asciinema_gif_generator-1.4.3-py3-none-win_amd64.whl", hash = "sha256:9c1fb8b785f77f09b73e4ea9b2cbe319597bb380d2851f25f8e7639a39392b74", size = 3558917, upload-time = "2024-08-10T22:41:25.833Z" },
+]
+
+[[package]]
 name = "hexlet-code"
 version = "0.1.0"
 source = { editable = "." }
@@ -12,6 +32,7 @@ dependencies = [
 
 [package.dev-dependencies]
 dev = [
+    { name = "asciinema-gif-generator" },
     { name = "ruff" },
 ]
 
@@ -19,7 +40,10 @@ dev = [
 requires-dist = [{ name = "prompt", specifier = ">=0.4.1" }]
 
 [package.metadata.requires-dev]
-dev = [{ name = "ruff", specifier = ">=0.15.8" }]
+dev = [
+    { name = "asciinema-gif-generator", specifier = ">=1.4.3" },
+    { name = "ruff", specifier = ">=0.15.8" },
+]
 
 [[package]]
 name = "prompt"
