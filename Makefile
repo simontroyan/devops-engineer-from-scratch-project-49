@@ -13,6 +13,9 @@ brain-calc:
 brain-gcd:
 	uv run python -m brain_games.scripts.brain_gcd
 
+brain-arithm:
+	uv run python -m brain_games.scripts.brain_arithm
+
 build:
 	uv build
 
