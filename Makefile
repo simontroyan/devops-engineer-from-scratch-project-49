@@ -14,7 +14,10 @@ brain-gcd:
 	uv run python -m brain_games.scripts.brain_gcd
 
 brain-arithm:
-	uv run python -m brain_games.scripts.brain_arithm
+	uv run python -m brain_games.scripts.brain_progression
+
+brain-prime:
+	uv run python -m brain_games.scripts.brain_prime
 
 build:
 	uv build
