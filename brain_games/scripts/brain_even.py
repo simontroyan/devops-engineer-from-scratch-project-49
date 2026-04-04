@@ -1,8 +1,9 @@
-from brain_games.games.odd_game import odd_game
+from brain_games.games.even_game import EvenGame
 
 
 def main():
-    odd_game()
+    game = EvenGame()
+    game.run()
 
 
 if __name__ == "__main__":
