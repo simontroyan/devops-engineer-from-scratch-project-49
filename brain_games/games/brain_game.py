@@ -10,18 +10,13 @@ def generate_random_num() -> int:
     return random.randint(0, 10000)
 
 
-@staticmethod
 def is_predicate(num: int) -> bool:
     if num <= 1:
         return False
-    
     for i in range(2, math.isqrt(num) + 1):
         if num % i == 0:
             return False
-        elif num % 1 == 0 and num % num == 0:
-            return True
-    return False
-    
+    return True
 
 def generate_question_and_answer():
     random_num = generate_random_num()
