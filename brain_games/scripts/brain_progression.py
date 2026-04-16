@@ -1,9 +1,8 @@
-from brain_games.games.arithm_progression import ArithmeticProgression
+from brain_games.games.arithm_progression import run
 
 
 def main():
-    arithmeticProgression = ArithmeticProgression()
-    arithmeticProgression.run()
+    run()
     
 
 if __name__ == "__main__":

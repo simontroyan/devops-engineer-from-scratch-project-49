@@ -1,34 +1,28 @@
 import random
 
-from ..base_game import BaseGame
+from ..base_game import run_game
+
+DESCRIPTION = "What is the result of the expression?"
 
 
-class CalcGame(BaseGame):
-    @property
-    def description(self) -> str:
-        return "What is the result of the expression?"
+def generate_expression() -> str:
+    operators = ['+', '-', '*']
+    operator = random.choice(operators)
+    a = random.randint(0, 100)
+    b = random.randint(0, 100)
     
-    def __init__(self):
-        super().__init__()
-        self.random_expression: str = ""
-        self.expression_res: int = 0
-        self.a = 0
-        self.b = 0
-        
-    @staticmethod
-    def generate_expression() -> str:
-        operators = ['+', '-', '*']
-        operator = random.choice(operators)
-        a = random.randint(0, 100)
-        b = random.randint(0, 100)
-        
-        random_expression = f"{a} {operator} {b}"
-        
-        return random_expression
-        
-    def generate_question(self) -> str:
-        self.random_expression = self.generate_expression()
-        return f"Question: {self.random_expression}\n"
+    random_expression = f"{a} {operator} {b}"
     
-    def get_correct_answer(self) -> int:
-        return str(eval(self.random_expression))
+    return random_expression
+    
+
+def generate_question_and_answer():
+    random_expression = generate_expression()
+    question = f"Question: {random_expression}\n"
+    answer = str(eval(random_expression))
+    
+    return question, answer
+
+
+def run():
+    run_game(DESCRIPTION, generate_question_and_answer)
