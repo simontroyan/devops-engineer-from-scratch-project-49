@@ -2,7 +2,7 @@ import random
 
 from ..base_game import run_game
 
-DESCRIPTION = "Find the greatest common divisor (GCD) of given numbers."
+DESCRIPTION = "Find the greatest common divisor of given numbers."
 
 
 def generate_random_numbers() -> list[str]:
