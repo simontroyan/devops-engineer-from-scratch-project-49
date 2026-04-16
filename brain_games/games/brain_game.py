@@ -18,6 +18,7 @@ def is_predicate(num: int) -> bool:
             return False
     return True
 
+
 def generate_question_and_answer():
     random_num = generate_random_num()
     question = f"Question: {random_num}\n"
