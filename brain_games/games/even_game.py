@@ -3,10 +3,11 @@ import random
 from ..base_game import run_game
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+MAX_NUMBER = 100
 
 
 def generate_question_and_answer():
-    num = random.randint(0, 100)
+    num = random.randint(0, MAX_NUMBER)
     question = f"Question: {num}\n"
     answer = "yes" if num % 2 == 0 else "no"
     return question, answer
