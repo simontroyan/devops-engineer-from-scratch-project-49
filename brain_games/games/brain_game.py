@@ -4,10 +4,11 @@ import random
 from brain_games.base_game import run_game
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-    
+MAX_NUMBER = 10000
+
 
 def generate_random_num() -> int:
-    return random.randint(0, 10000)
+    return random.randint(0, MAX_NUMBER)
 
 
 def is_predicate(num: int) -> bool:

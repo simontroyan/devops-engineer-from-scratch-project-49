@@ -3,13 +3,17 @@ import random
 from brain_games.base_game import run_game
 
 DESCRIPTION = "What number is missing in the progression?"
-    
+MAX_NUMBER = 100
+MAX_STEP = 10
+MIN_LENGTH = 5
+MAX_LENGTH = 10
+
 
 def generateProgression() -> list[str]:
     progression_arr: list[str] = []
-    d = random.randint(1, 10)
-    a1 = random.randint(1, 100)
-    random_length = random.randint(5, 10)
+    d = random.randint(1, MAX_STEP)
+    a1 = random.randint(1, MAX_NUMBER)
+    random_length = random.randint(MIN_LENGTH, MAX_LENGTH)
     
     # add 1st random int to 0 index
     progression_arr.append(str(a1))

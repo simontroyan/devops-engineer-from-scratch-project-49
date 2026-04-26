@@ -7,3 +7,13 @@
 
 
 ![demo](demo.gif)
+
+brain-even: https://asciinema.org/a/nCqcRiPjXGqaEVMG
+
+brain_calc: https://asciinema.org/a/oKSMXdvAU93N53rH
+
+brain_gcd: https://asciinema.org/a/RFV7jbTnSlSZ4MUQ
+
+brain_progression: https://asciinema.org/a/WEkAcwwOSWUIbgnD
+
+brain_prime: https://asciinema.org/a/KCR3eQ45gp8dGWKh

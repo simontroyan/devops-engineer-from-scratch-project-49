@@ -3,23 +3,24 @@ import random
 from ..base_game import run_game
 
 DESCRIPTION = "What is the result of the expression?"
+MAX_NUMBER = 100
+OPERATORS = ['+', '-', '*']
 
 
-def generate_expression() -> str:
-    operators = ['+', '-', '*']
-    operator = random.choice(operators)
-    a = random.randint(0, 100)
-    b = random.randint(0, 100)
-    
-    random_expression = f"{a} {operator} {b}"
-    
-    return random_expression
-    
+def calculate(a, operator, b):
+    if operator == '+':
+        return a + b
+    if operator == '-':
+        return a - b
+    return a * b
+
 
 def generate_question_and_answer():
-    random_expression = generate_expression()
-    question = f"Question: {random_expression}\n"
-    answer = str(eval(random_expression))
+    operator = random.choice(OPERATORS)
+    a = random.randint(0, MAX_NUMBER)
+    b = random.randint(0, MAX_NUMBER)
+    question = f"Question: {a} {operator} {b}\n"
+    answer = str(calculate(a, operator, b))
     
     return question, answer
 

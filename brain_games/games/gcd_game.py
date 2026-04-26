@@ -3,12 +3,14 @@ import random
 from ..base_game import run_game
 
 DESCRIPTION = "Find the greatest common divisor of given numbers."
+MAX_NUMBER = 100
+COUNT_NUMBERS = 2
 
 
 def generate_random_numbers() -> list[str]:
     randomNums: list = []
-    for _ in range(2):
-        randomNums.append(int(random.randint(1, 100)))
+    for _ in range(COUNT_NUMBERS):
+        randomNums.append(int(random.randint(1, MAX_NUMBER)))
     return randomNums
 
 

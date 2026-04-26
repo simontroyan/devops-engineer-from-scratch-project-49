@@ -1,16 +1,17 @@
 import prompt
 
+COUNT_ROUND = 3
+
 
 def run_game(description, generate_question_and_answer):
     print("Welcome to the Brain Games!")
-    
+
     user_name = prompt.string("May I have your name? ")
-    
+
     print(f"Hello, {user_name}!")
-    # Description
     print(description)
 
-    for _ in range(3):
+    for _ in range(COUNT_ROUND):
         question, correct_answer = generate_question_and_answer()
         user_answer = prompt.string(question)
         
